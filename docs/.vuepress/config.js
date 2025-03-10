@@ -1,5 +1,5 @@
 // 注意：需要在dev前初始化内网api文档
-const apiConfig = require('../develop/api/config');
+const apiConfig = require('../develop/api-v2/config');
 const apiConfig231017 = require('../develop/api-v2/config');
 const nodesdkConfig = require('../develop/nodesdk/config');
 const pythonsdkConfig = require('../develop/pythonsdk/config');
@@ -7,7 +7,7 @@ const gosdkConfig = require('../develop/gosdk/config');
 const newfeatureConfig = require('../newfeature/config');
 const commonConfig = require('./common');
 
-const base = '/wiki/';
+const base = '/';
 
 module.exports = ctx => ({
   base,
@@ -63,7 +63,7 @@ module.exports = ctx => ({
         host: 'https://bot.q.qq.com',
         disallowAll: false,
         allowAll: true,
-        sitemap: '/wiki/sitemap.xml',
+        sitemap: '/sitemap.xml',
       },
     ],
     [
@@ -159,7 +159,7 @@ module.exports = ctx => ({
         link: '/changelog/',
       },
     ],
-    repo: 'tencent-connect/bot-docs',
+    repo: 'Shanshui2024/Site-QQOpenDocs',
     editLinks: true,
     editLinkText: '在GitHub上编辑此页',
     docsDir: 'docs',
