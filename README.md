@@ -1,6 +1,6 @@
-# 机器人文档
+# QQ机器人文档-重制版
 
-本仓库是 QQ 机器人文档项目，基于[vuepress](https://vuepress.vuejs.org/zh/)构建。对应文档网站是 <https://bot.q.qq.com/wiki/>。
+本仓库是 QQ 机器人的非官方重制文档项目，基于[vuepress](https://vuepress.vuejs.org/zh/)构建。对应文档网站是 <https://botqq.shanshui.site/wiki/>。
 
 ## 本地开发
 
@@ -8,12 +8,12 @@
 
 ### 1、Gitpod 在线开发
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tencent-connect/bot-docs)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Shanshui2024/Site-QQOpenDocs)
 
 ### 2、本地克隆代码开发
 
 ```sh
-git clone git@github.com:tencent-connect/bot-docs.git
+git clone git@github.com:Shanshui2024/Site-QQOpenDocs.git
 cd bot-docs
 npm i
 npm run dev
@@ -44,20 +44,18 @@ docs
 
 - 👏 如果您有针对文档的错误修复，请以分支`fix/xxx`向`main`分支发 PR
 - 👏 如果您有新的内容贡献，请以分支`feature/xxx`向`main`分支发起 PR
-- 👏 如果您有相关的建议或意见，请提[issues](https://github.com/tencent-connect/bot-docs/issues)
+- 👏 如果您有相关的建议或意见，请提[issues](https://github.com/Shanshui2024/Site-QQOpenDocs/issues)
 
 ## 加入官方社区
 
-欢迎扫码加入 **QQ 频道开发者社区**。
-
-![开发者社区](https://mpqq.gtimg.cn/privacy/qq_guild_developer.png)
+欢迎加入 [**山水画路社区**](https://qm.qq.com/cgi-bin/qm/qr?k=dtr3ehrAbxpNPlwWRFSxWD0Xi1YhNng0&jump_from=webapi&authKey=DtrSHXcGv8XW+T56PKQ2IcDgvKYCW+AKegdB0+oXTLpbqFnKEBYboHwyKjNMNLtF)。
 
 ## 贡献者
 
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
-<a href="https://github.com/tencent-connect/bot-docs/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=tencent-connect/bot-docs" />
+<a href="https://github.com/Shanshui2024/Site-QQOpenDocs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Shanshui2024/Site-QQOpenDocs" />
 </a>
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
