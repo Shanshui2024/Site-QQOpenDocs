@@ -55,7 +55,7 @@
     "prepare": "husky install",
     "dev": "npm run sync-api && vuepress dev docs --temp .temp",
     "devssl": "set NODE_OPTIONS=--openssl-legacy-provider & npm run sync-api && vuepress dev docs --temp .temp",
-    "docs:build": "vuepress build docs --temp .temp --dist dist",
+    "docs:build": "vuepress build docs",
     "build-test": "cross-env BUILD_ENV=test vuepress build docs --temp .temp --dist dist",
     "lint-md": "npm run lint-md:style && npm run lint-md:wording",
     "lint-md:style": "remark --quiet --frail .",
